@@ -5,7 +5,8 @@
 }
 
 header,
-footer {
+footer,
+.top-section {
   background-color: #1F2937;
   color: #F9FAF8;
 }
@@ -14,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 10px 100px;
+  padding: 10px 200px;
 }
 
 .header-logo {
@@ -30,4 +31,45 @@ li {
   display: inline;
   margin-left: 10px;
   font-size: 14px;
+  color: #E5E7EB;
+}
+
+.top-section {
+  display: flex;
+  padding: 50px 200px 100px;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.top-section-left {
+  flex: 1;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  color: #F9FAF8;
+  padding: 5px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.top-section-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-image {
+  flex: 0 1 0;
+  object-fit: contain;
+}
+
+.signup-1 {
+  margin-top: 10px;
 }
