@@ -120,3 +120,28 @@ h2 {
   font-size: small;
   width: 200px;
 }
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  height: 300px;
+  color: #1F2937;
+  padding: 0 350px;
+  gap: 10px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 24px;
+  min-width: 200px;
+}
+
+.quote-by {
+  align-self: flex-end;
+  font-weight: bold;
+  min-width: 100px;
+  text-align: right;
+}
