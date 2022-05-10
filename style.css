@@ -147,19 +147,28 @@ h2 {
 }
 
 .signup-section {
-  padding: 100px 200px;
-}
-
-.signup-content {
+  margin: 100px 200px;
+  padding: 40px 100px;
   background-color: #3882f6;
   border-radius: 5px;
-  padding: 40px 100px;
   color: #E5E7EB;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+
+.signup-left {
+  flex: 1;
 }
 
 .signup-2 {
   border-color: #E5E7EB;
   border-style: solid;
+  height: min-content;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
 }
