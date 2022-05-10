@@ -34,7 +34,7 @@ ul {
 
 li {
   display: inline;
-  margin-left: 10px;
+  margin-left: 20px;
   font-size: 14px;
   color: #E5E7EB;
 }
@@ -111,8 +111,8 @@ h2 {
 }
 
 .info-image {
-  max-width: 200px;
-  min-width: 100px;
+  width: 200px;
+  height: 150px;
   border-radius: 5px;
 }
 
