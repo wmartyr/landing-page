@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 10px 200px;
+  padding: 10px 10%;
 }
 
 .header-logo {
@@ -41,7 +41,7 @@ li {
 
 .top-section {
   display: flex;
-  padding: 50px 200px 100px;
+  padding: 50px 10% 100px;
   justify-content: space-between;
   gap: 50px;
   flex-wrap: wrap;
@@ -80,10 +80,11 @@ h1 {
   flex: 1;
   width: 100%;
   min-width: 300px;
+  border-radius: 5px;
 }
 
 .info-section {
-  padding: 50px 200px;
+  padding: 50px 10%;
 }
 
 h2 {
@@ -112,6 +113,7 @@ h2 {
 .info-image {
   max-width: 200px;
   min-width: 100px;
+  border-radius: 5px;
 }
 
 
@@ -129,7 +131,7 @@ h2 {
   background-color: #E5E7EB;
   height: 300px;
   color: #1F2937;
-  padding: 0 350px;
+  padding: 0 15%;
   gap: 10px;
 }
 
@@ -147,8 +149,8 @@ h2 {
 }
 
 .signup-section {
-  margin: 100px 200px;
-  padding: 40px 100px;
+  margin: 100px 10%;
+  padding: 40px 10%;
   background-color: #3882f6;
   border-radius: 5px;
   color: #E5E7EB;
